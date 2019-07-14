@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Forms and Frames</title>
+</head>
+<body>
+	<table border="1">
+		<colgroup>
+			<col width="150px">
+			<col width="300px">
+		</colgroup>
+		<tr>
+			<td style="text-align: right;">
+				<b>Last Name</b>
+			</td>
+			<td>
+				<input type="text" name="last name" value="Nakov" style="width:300px">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>First Name</b>
+			</td>
+			<td>
+				<input type="text" name="First Name" value="Svetlin"style="width:300px"">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Address</b>
+			</td>
+			<td>
+				<textarea style="width:300px">17 Hristo Botev Str. floor 3, apt. 12</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>City</b>
+			</td>
+			<td>
+				<input type="text" name="City" value="Kaspichan" style="width: 100px"> <b>State <input type="text" name="State" style="width: 150px"></b>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Zip/Postal Code</b>
+			</td>
+			<td >
+				<input type="text" name="Zip/Postal Code" value="9325" style="width:300px">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Country</b>
+			</td>
+			<td>
+				<select style="width: 300px">
+					<option value="Bulgaria">Bulgaria</option>
+					<option value="Afganistan">Afghanistan</option>
+					<option value="Albania">Albania</option>
+					<option value="Algeria">Algeria</option>
+					<option value="American Samoa">American Samoa</option>
+					<option value="Andorra">Andorra</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Phone(Country code, area code, number</b>
+			</td>
+			<td>
+				(+<input type="text" name="Country code" value="359" style="width: 80px">)<input type="text" name="area code" value="88" style="width: 80px">-<input type="text" name="number" value="8334343" style="width: 80px">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>E-mail</b>
+			</td>
+			<td>
+				<input type="E-mail" name="E-mail" value="nakov@kaspchan.org" style="width: 300px">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Birth date</b>
+			</td>
+			<td>
+				Month<input type="text" name="Month" value="06" style="width: 30px"> Day<input type="text" name="Day" value="14" style="width: 30px"> Year(4 digit)<input type="text" name="Year" value="1980" style="width: 70px">
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Gender</b>
+			</td>
+			<td>
+				<select style="width: 300px">
+					<option>Male</option>
+					<option>Female</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Starting date</b>
+			</td>
+			<td>
+				<input type="radio" name="Starting date" checked="checked">Spring 2006
+				<input type="radio" name="Starting date">Summer 2006
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">
+				<b>Comment/Questions</b>
+			</td>
+			<td>
+				<textarea style="width: 300px">Please send me more information about the logging</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="button" name="submit" value="Submit">
+				<input type="reset" name="clean" value="Clear This Form">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
