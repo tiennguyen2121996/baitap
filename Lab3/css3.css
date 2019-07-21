@@ -1,0 +1,29 @@
+p{
+	font-style: italic;
+	color: #EEEEEE;
+}
+table{
+	background-color: #555555;
+	height: 500px;
+	width: 500px;
+	font-family: 'font-verdana', sans-serif;
+}
+th{
+	text-align: left;
+	color: #CCCCCC;
+}
+.red{
+	color: red
+}
+.orange{
+	color: #FF9900;
+}
+b{
+	color: #FFFF33;
+}
+.grey{
+	color: #BBBBBB;
+}
+li{
+	color: #00FF33;
+}
