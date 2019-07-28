@@ -1,0 +1,42 @@
+ul{
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+ul >li{
+	display: inline-block;
+	line-height: 40px;
+	margin-left: -5px;
+}
+ul > li > a{
+	color: #58585a;
+	text-decoration: none;
+	padding:20px;
+}
+body > ul > li >ul{
+	display: none;
+	color: #fff;
+}
+.relative li{
+	position: relative;
+}
+.abso{
+	position: absolute;
+	display: none;
+}
+.relative li:hover .abso{
+	display: block;
+	width: 160px;
+	height: 80px;
+}
+.relative{
+	text-align: center;
+}
+.relative a:hover{
+	background: black;
+	color: white;
+}
+.relative li:hover >ul > li > a:hover{
+	background: blue;
+	color: orange;
+}

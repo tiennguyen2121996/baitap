@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+}
+
+.static > li:hover span {
+    text-decoration: underline;
+}
+
+.static > li:hover .abso {
+    position: static;
+}
+
+ul.static > li {
+    width: 65px;
+}
+
+.abso {
+    position: absolute;
+    left: -9999px;
+    color: #808080;
+    width: 100px;
+}

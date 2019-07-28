@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Edwardian Script ITC;
+    src: url(C:\Users\tien\Desktop\baitap\Lab4/font/EdwardianScriptITC.ttf);
+}
+
+p {
+    color: #0094ff;
+    font-family: Consolas;
+    font-size: 20px;
+}
+
+body> header > p:first-letter {
+    font-family: Edwardian Script ITC;
+    font-size: 2.9em;
+}
+
+body > header >p:first-line {
+    font-weight: bold;
+}
