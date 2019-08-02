@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		function Fname(){
+			for (index in arr){
+			document.writeln(arr[index] + "<br>");
+			}
+		}
+		var arr = ["Trần A","Trần B","Trần C","Trần D","Trần E","Trần Văn C"]
+		var index;
+		Fname();
+
+		document.writeln("<br>" + "Sau sửa" + "<br>");
+		arr[2] = "Trần Văn C" 
+		Fname();
+
+		document.writeln("<br>" + "Thêm Nguyễn F" + "<br>");
+		arr.push("Nguyễn F")
+		Fname();
+
+		document.writeln("<br>" + "Xóa Nguyễn F" + "<br>");
+		arr.pop("Nguyễn F")
+		Fname();
+
+		document.writeln("<br>" + "Thêm Nguyễn F ở đầu" + "<br>");
+		arr.unshift("Nguyễn F")
+		Fname();
+
+		document.writeln("<br>" + "Xóa Nguyễn F ở đầu" + "<br>");
+		arr.shift("Nguyễn F")
+		Fname();
+
+		var find_index = arr.indexOf("Nguyễn C")
+		document.writeln("<br>" + find_index + "<br>");
+
+		var find_index = arr.indexOf("Trần Văn C")
+		document.writeln("<br>" + find_index + "<br>");
+
+		var last_find_index = arr.lastIndexOf("Trần Văn C")
+		document.writeln("<br>" + last_find_index + "<br>");
+	</script>
+	<script>
+		var arr = ["Trần A","Trần B","Trần C","Trần D","Trần E","Trần Văn C"]
+		function kiemtra(Hoten,arr){
+			var find_index = arr.indexOf(Hoten)
+			if(find_index >= 0){
+				document.writeln("<br>" + "tồn tại" + "<br>");
+			}else{
+				document.writeln("<br>" + " không tồn tại" + "<br>");
+			}
+		}
+		kiemtra("Trần C",arr)
+	</script>
+</body>
+</html>
