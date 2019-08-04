@@ -1,0 +1,43 @@
+section {
+    width: 600px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: silver;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+div {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 555px;
+    background-color: #ffffff;
+}
+body > section > div{
+	border: 1px solid black;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+div button {
+    background-repeat: no-repeat;
+    width: 100px;
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    margin-right: 0px;
+}

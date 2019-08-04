@@ -1,0 +1,91 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+	width: 150px;
+	height: 80px;
+}
+ul {
+    margin: 10px;
+    list-style: none;
+}
+.brands {
+   text-align: center;
+}
+.brands li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+li {
+    margin-top: 8px;
+}
+li a {
+    color: #00abef; 
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+    margin-left: 30px;
+    width: 700px;
+}
+
+section {
+    border: 2px solid black;
+    float: left;
+    margin: 10px;
+    width: 568px;
+    height: 475px;
+    overflow: hidden;
+}
+form {
+    float: left;
+    margin: 2px 5px 2px 5px;
+    height: 150px;
+}
+fieldset {
+    border: 2px solid black;
+    width: 270px;
+    height: 150px;
+}
+
+legend {
+    margin-left: 60px;
+}
+ul.price {
+    float: left;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+ul.parameters {
+    position: relative;
+    top: 15px;
+}
+    ul.parameters li {
+        margin-top: 15px;
+    }
+
+.price-ram {
+    position: relative;
+    top: 150px;
+}
+    .price-ram input {
+        width: 150px;
+    }
+    .price-ram div {
+        margin-bottom: 8px;
+    }
+        .price-ram div span {
+            float: right;
+        }
+body{
+	border: 2px solid black;
+	width: 780px;
+	height: 550px;
+}
